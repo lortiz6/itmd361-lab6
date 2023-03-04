@@ -67,3 +67,13 @@ video {
   display: none;
   height: 0;
 }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+
+ [hidden],
+ template {
+   display: none;
+ }
